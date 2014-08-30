@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>/media/share/code/c#/MediaLizer/MediaLizer/bin/Debug/MediaLizer</name>
+    </assembly>
+    <members>
+        <member name="F:MediaLizer.MainClass.GlobalXMLFile">
+            <summary>
+            The main XML file name.
+            </summary>
+        </member>
+        <member name="M:MediaLizer.MainClass.Main(System.String[])">
+            <summary>
+            The entry point of the program, where the program control starts and ends.
+            </summary>
+            <param name="args">
+            The command-line arguments.
+            </param>
+        </member>
+        <member name="T:MediaLizer.Classes.SQL">
+            <summary>
+            SQ.
+            </summary>
+        </member>
+        <member name="T:MediaLizer.Functions">
+            <summary>
+            Global Static Functions
+            </summary>
+        </member>
+        <member name="M:MediaLizer.Functions.getInstallPath">
+            <summary>
+            Gets the install path.
+            </summary>
+            <returns>
+            The install path.
+            </returns>
+        </member>
+        <member name="M:MediaLizer.Functions.getPathSeparator">
+            <summary>
+            Gets the path separator.
+            </summary>
+            <returns>
+            The path separator.
+            </returns>
+        </member>
+        <member name="M:MediaLizer.Functions.Pause">
+            <summary>
+            Pause this instance.
+            </summary>
+        </member>
+        <member name="M:MediaLizer.Functions.getYesNo(System.String,System.Object[])">
+            <summary>
+            Gets the yes no.
+            </summary>
+            <returns>
+            True for y/yes False for n/no.
+            </returns>
+            <param name="QuestionText">
+            Question text to print before reading input.
+            </param>
+            <param name="args">
+            args used in formating the question string
+            </param>
+        </member>
+        <member name="M:MediaLizer.Functions.getYesNo(System.String)">
+            <summary>
+            Gets the yes no.
+            </summary>
+            <returns>
+            True for y/yes False for n/no.
+            </returns>
+            <param name="QuestionText">
+            Question text to print before reading input.
+            </param>
+        </member>
+        <member name="M:MediaLizer.Functions.getYesNo">
+            <summary>
+            Gets the yes no.
+            </summary>
+            <returns>
+            The true for y/yes false for n/no.
+            </returns>
+        </member>
+        <member name="M:MediaLizer.Functions.listPathContents(System.String)">
+            <summary>
+            Lists the path contents.
+            </summary>
+            <returns>
+            The path contents.
+            </returns>
+            <param name="PathToList">
+            Path to list.
+            </param>
+        </member>
+        <member name="T:MediaLizer.Classes.Setting">
+            <summary>
+            Setting container.
+            </summary>
+        </member>
+        <member name="M:MediaLizer.Classes.Setting.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:MediaLizer.Settings.Setting" /> class.
+            </summary>
+            <param name="SettingName">
+            Name of setting.
+            </param>
+            <param name="SettingValue">
+            Value of setting.
+            </param>
+        </member>
+        <member name="M:MediaLizer.Classes.Setting.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:MediaLizer.Settings.Setting" /> class.
+            </summary>
+            <param name="SettingName">
+            Name of setting.
+            </param>
+        </member>
+        <member name="M:MediaLizer.Classes.Setting.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="!:MediaLizer.Settings.Setting" /> class.
+            </summary>
+        </member>
+        <member name="P:MediaLizer.Classes.Setting.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:MediaLizer.Classes.Setting.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="T:MediaLizer.Classes.MySQL">
+            <summary>
+            MySQL specific SQL class.
+            </summary>
+        </member>
+        <member name="M:MediaLizer.Classes.MySQL.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MediaLizer.Classes.MySQL" /> class.
+            </summary>
+            <param name="ConnectionString">
+            Connection string.
+            </param>
+        </member>
+        <member name="M:MediaLizer.Classes.MySQL.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MediaLizer.Classes.MySQL" /> class.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Classes.MySQL._ConnectionString">
+            <summary>
+            The connection string.
+            </summary>
+        </member>
+        <member name="P:MediaLizer.Classes.MySQL.Connection">
+            <summary>
+            The connection.
+            </summary>
+        </member>
+        <member name="P:MediaLizer.Classes.MySQL.ConnectionString">
+            <summary>
+            Gets the connection string.
+            </summary>
+            <value>
+            The connection string.
+            </value>
+        </member>
+        <member name="M:MediaLizer.Classes.MySQL.TestConnection">
+            <summary>
+            Tests the connection.
+            </summary>
+            <returns>
+            The connection.
+            </returns>
+        </member>
+        <member name="T:MediaLizer.Settings">
+            <summary>
+            Settings.
+            </summary>
+        </member>
+        <member name="T:MediaLizer.Defaults.MainSettings">
+            <summary>
+            Settings types.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings.User">
+            <summary>
+            The user.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings.Server">
+            <summary>
+            The server.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings.Database">
+            <summary>
+            The database.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings.Contents">
+            <summary>
+            The contents.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings.Paths">
+            <summary>
+            The paths.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings.Password">
+            <summary>
+            The password.
+            </summary>
+        </member>
+        <member name="F:MediaLizer.Defaults.MainSettings._DefaultSettings">
+            <summary>
+            The _ default values.
+            </summary>
+        </member>
+    </members>
+</doc>

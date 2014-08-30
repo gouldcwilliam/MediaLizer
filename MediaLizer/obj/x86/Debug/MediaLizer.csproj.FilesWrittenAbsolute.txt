@@ -1,0 +1,4 @@
+/media/share/code/c#/MediaLizer/MediaLizer/bin/Debug/MediaLizer.exe.mdb
+/media/share/code/c#/MediaLizer/MediaLizer/bin/Debug/MediaLizer.exe
+/media/share/code/c#/MediaLizer/MediaLizer/obj/x86/Debug/MediaLizer.exe
+/media/share/code/c#/MediaLizer/MediaLizer/obj/x86/Debug/MediaLizer.exe.mdb

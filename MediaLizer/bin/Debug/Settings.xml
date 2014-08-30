@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Main Application Config-->
+<Settings>
+  <User user="User" />
+  <Server server="Server" />
+  <Database database="Database" />
+  <Contents contents="Contents" />
+  <Paths paths="Paths" />
+</Settings>
